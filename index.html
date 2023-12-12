@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HOME | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(6, 6, 133);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            font-size: 1.02rem;
+            color: blueviolet;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+        }
+
+        .firstsection>div {
+            width: 40%
+        }
+
+        .leftsection {
+            font-size: 2rem;
+        }
+
+        .leftsection .btn a {
+            margin: 40px 0;
+            padding: 10px;
+            background: rgb(0, 0, 33);
+            color: white;
+            border: 3px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .leftsection .btn a:hover {
+            color: blue;
+        }
+
+        .rightsection img {
+            width: 60%;
+            border-radius: 45%;
+        }
+
+        .purple {
+            color: rgb(165, 80, 165);
+        }
+
+        .textgrey {
+            color: rgb(230, 215, 215); 
+            margin: 40px 0px;
+        }
+
+        #element {
+            color: rgb(165, 80, 165);
+        }
+
+        .secondsection {
+            font-size: 1.5rem;
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 76vw;
+            height: 2px;
+            margin: 100px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 90px;
+            width: 1px;
+            background-color: whitesmoke;
+            margin: 0 130px;
+        }
+
+        .imagetop {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            top: -55px;
+            left: -25px;
+        }
+
+        .verticaltitle {
+            position: relative;
+            top: 60px;
+            width: 150px;
+            font-size: 14px;
+            font-weight: bold;
+            right: 30px;
+        }
+
+        .verticaldesc {
+            position: relative;
+            top: 70px;
+            color: grey;
+            width: 200px;
+            font-size: 15px;
+            font-weight: bolder;
+            right: 50px;
+        }
+
+        .footer h2 {
+            padding: 10px 0;
+            margin: 0px 500px;
+            width: 400px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 0px 50px;
+            justify-content: left;
+            background-color: rgb(219, 41, 101);
+            height: 200px;
+        }
+
+        .sm {
+            background-color: rgb(219, 41, 101);
+        }
+
+        .sm ul {
+            display: flex;
+            margin: 0px 50px;
+            justify-content: baseline;
+        }
+
+        .sm ul li {
+            list-style: none;
+            margin: 5px 20px;
+            width: 150px;
+        }
+
+        .sm ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .sm ul li a:hover {
+            text-decoration: none;
+            color: aquamarine;
+            font-size: 1.02rem;
+        }
+
+        .footer>div {
+            width: 1000px;
+            margin: 60px -1300px;
+        }
+
+        .footerright {
+            color: white;
+            text-align: center;
+        }
+
+        #footer-welcome {
+            color: whitesmoke;
+            margin: auto;
+            font-size: 23px;
+        }
+
+        .resume {
+            margin: 30px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <h4>RITWIK VERMA</h4>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/index.html"><b>HOME</b></a></li>
+                    <li><a href="/About.html"><b>ABOUT</b></a></li>
+                    <li><a href="/Projects.html"><b>PROJECTS</b></a></li>
+                    <li><a href="/Contactme.html"><b>CONTACT ME</b></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is
+                <span class="purple">Ritwik Verma</span>
+                <div>I am a passionate</div>
+                <span id="element"></span>
+                <div class="resume">
+                    <button class="btn">
+                        <a href="Ritwik Verma.pdf" target="_blank">Download Resume</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="rightsection">
+                <img src="Ritwik.png">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            
+            <div class="textgrey">Academics
+            <h1>Academic Timeline</h1>
+            </div>
+            <div class="box">
+
+                <div class="vertical">
+                    <img class="imagetop" src="School 10.png" alt="MCKV">
+                    <div class="verticaltitle">
+                        <address>
+                            <p>Schooling</p>
+                            <p>(2006-2020)</p>
+                        </address>
+                    </div>
+                    <div class="verticaldesc">
+                        I am an alumunus of M. C. Kejriwal Vidyapeeth
+                        My School life began from 2006 tll 2020.
+                        I completed my 10th and 12th from the same.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="imagetop" src="School 10.png" alt="MCKV">
+                    <div class="verticaltitle">
+                        <address>
+                            <p>Secondary</p>
+                            <p>(2017-2018)</p>
+                        </address>
+                    </div>
+                    <div class="verticaldesc">
+                        I opted for Science and finished my 10th with an agrregate 88.67%
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="imagetop" src="School 10.png" alt="MCKV">
+
+                    <div class="verticaltitle">
+                        <address>
+                            <p>Higher Secondary</p>
+                            <p>(2019-2020)</p>
+                        </address>
+                    </div>
+                    <div class="verticaldesc">
+                        I opted for Computer Science and finished my 12th with an agrregate 83.67%.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="imagetop" src="UEM.jpg" alt="UEM" height="20px">
+
+                    <div class="verticaltitle">
+                        <address>
+                            <p>College</p>
+                            <p>(2020-2024)</p>
+                        </address>
+                    </div>
+                    <div class="verticaldesc">
+                        I am currently studying in University of Engineering and Management Kolkata.
+                        I am in final year and pursuing B. Tech degree in Computer Science and Technology.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <h2>HELLO I AM RITWIK VERMA</h2>
+            <div class="intro"><span id="footer-welcome"></span></div>
+        </div>
+    </footer>
+    <footer class="sm">
+        <ul>
+            <li><a href="mailto: ritwik.verma2612@gmail.com">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/ritwikverma1201" target="_blank">LinkedIn</a></li>
+            <li><a href="https://instagram.com/_.amrev._" target="_blank">Instagram</a></li>
+            <li><a href="https://www.facebook.com/kiwtir.amrev" target="_blank">Faceook</a></li>
+            <li><a href="https://x.com/4MR3V" target="_blank">X</a></li>
+            <li><a href="https://www.snapchat.com/add/k.amr3v" target="_blank">Snapchat</a></li>
+            <li><a href="https://github.com/AMR3V" target="_blank">GitHub</a></li>
+        </ul>
+    </footer>
+    <div class="footerright">
+        Ritwik's Developer Portal | All rights reserved
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Database Manager', 'Java Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#footer-welcome', {
+            strings: ['A computer science student seeking for a challenging entry-level position in the computer science field that will allow me to utilize my skills and continue learning and growing as a developer.'],
+            typeSpeed: 20,
+        });
+    </script>
+</body>
+
+</html>
